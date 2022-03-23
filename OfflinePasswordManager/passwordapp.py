@@ -222,7 +222,6 @@ def dbpage():                                 ## funtion that sets up the databa
 def view_item():
     newwin = tk.Toplevel()
     newwin.title(main_list.get(ANCHOR))
-    newwin.geometry("400x200")
 
     con = sqlite3.connect('./database_folder/password.db')
     c = con.cursor()
