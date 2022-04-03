@@ -433,7 +433,7 @@ sfield.focus_set()
 ebtn.grid(row = 0,column=2,padx=5)
 bbtn.grid(row=0,column=3,padx=5)
 
-main_list = tk.Listbox(searchfrm,height=25,width=30,border=3,font = f2,selectbackground=darkorange)
+main_list = tk.Listbox(searchfrm,height=12,width=30,border=3,font = f2,selectbackground=darkorange)
 main_list.grid(row=3,column=0,columnspan=4,rowspan=10,pady=10)
 viewbtn = tk.Button(searchfrm,width = 15,bg=floralwhite,fg = '#000000',border=2,command=view_item,text = "View",font = f1)
 viewbtn.grid(row=1,column=1,pady=10,padx=20)
